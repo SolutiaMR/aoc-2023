@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //PartOne();
+        PartOne();
         PartTwo();
     }
 
@@ -66,8 +66,13 @@ class Program
                     last = number;
                 }
             }
+
+            //first number
+            //last number 
+
             var lastDigitString = "";
             var firstDigitString = "";
+
             foreach (var digitString in digitStrings)
             {
 
@@ -85,10 +90,6 @@ class Program
                 {
                     if (lastDigitString == "" || (line.LastIndexOf(digitString.ToString()) >= line.LastIndexOf(lastDigitString.ToString())))
                     {
-                        if (line == "eightwothree" && digitString == "three")
-                        {
-                            Console.WriteLine("here");
-                        }
                         last = digitStrings.IndexOf(digitString) + 1;
                         lastDigitString = digitString;
                     }

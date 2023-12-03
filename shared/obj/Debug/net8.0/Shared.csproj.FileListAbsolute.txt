@@ -9,3 +9,4 @@
 /Users/solutia/Documents/Repos/aoc-2023/shared/obj/Debug/net8.0/refint/Shared.dll
 /Users/solutia/Documents/Repos/aoc-2023/shared/obj/Debug/net8.0/Shared.pdb
 /Users/solutia/Documents/Repos/aoc-2023/shared/obj/Debug/net8.0/ref/Shared.dll
+/Users/solutia/Documents/Repos/aoc-2023/shared/obj/Debug/net8.0/Shared.sourcelink.json
