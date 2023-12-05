@@ -4,7 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        //these are backwards
         PartOne();
+        PartTwo();
     }
 
     public static void PartOne()
