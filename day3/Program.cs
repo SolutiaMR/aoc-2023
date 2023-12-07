@@ -72,10 +72,6 @@ class Program
                     var rightIdx = 1;
                     var leftIdx = -1;
 
-                    Console.WriteLine("RightIdx" + rightIdx);
-                    Console.WriteLine("Row" + row);
-                    Console.WriteLine("Col" + col);
-                    Console.WriteLine(lines[row].Length - 1);
                     while (rightIdx + col <= lines[row].Length - 1 && int.TryParse(lines[row][col + rightIdx].ToString(), out int rightNumber))
                     {
                         if (usedPositions.Any(x => x[0] == row && x[1] == col + rightIdx))
